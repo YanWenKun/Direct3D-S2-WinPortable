@@ -29,7 +29,7 @@ $gcs https://github.com/YanWenKun/Direct3D-S2-WinPortable-Scripts.git WinScripts
 
 # Download Direct3D-S2
 cd "$workdir"/Direct3DS2_WinPortable/
-$gcs https://github.com/DreamTechAI/Direct3D-S2.git
+$gcs https://github.com/YanWenKun/Direct3D-S2.git
 
 # Copy & overwrite attachments
 cp -rf "$workdir"/attachments/. \
