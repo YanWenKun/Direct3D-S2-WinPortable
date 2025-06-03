@@ -6,4 +6,3 @@ scikit-image
 tqdm
 transformers==4.40.2
 trimesh
-utils3d
