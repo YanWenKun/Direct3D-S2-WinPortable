@@ -31,14 +31,6 @@ if errorlevel 1 (
     goto :error
 )
 
-REM 执行 git pull
-echo 正在执行 git pull...
-git pull
-if errorlevel 1 (
-    echo 错误： git pull 执行失败。
-    goto :error
-)
-
 start /d .\zh-cn init.bat
 
 echo 已在新窗口执行脚本，可关闭本窗口
