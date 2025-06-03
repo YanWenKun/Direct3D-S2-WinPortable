@@ -1,0 +1,7 @@
+triton-windows==3.1.0.post17
+
+git+https://github.com/mit-han-lab/torchsparse.git
+
+https://huggingface.co/lldacing/flash-attention-windows-wheel/resolve/main/flash_attn-2.7.4.post1%2Bcu128torch2.7.0cxx11abiFALSE-cp312-cp312-win_amd64.whl
+
+Gooey
