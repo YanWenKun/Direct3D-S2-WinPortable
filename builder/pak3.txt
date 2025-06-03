@@ -1,4 +1,5 @@
 aiohttp
+cmake
 Cython
 diffusers
 einops

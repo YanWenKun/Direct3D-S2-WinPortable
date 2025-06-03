@@ -35,4 +35,11 @@ $gcs https://github.com/YanWenKun/Direct3D-S2.git
 cp -rf "$workdir"/attachments/. \
     "$workdir"/Direct3DS2_WinPortable/
 
+# Add vcpkg and install sparsehash
+cd "$workdir"/Direct3DS2_WinPortable/
+$gcs https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+./bootstrap-vcpkg.sh
+./vcpkg install sparsehash:x64-windows
+
 cd "$workdir"
