@@ -12,6 +12,8 @@ export PATH="$PATH:$workdir/Direct3DS2_WinPortable/python_standalone/Scripts"
 mkdir -p "$workdir"/Direct3DS2_WinPortable/extras
 export HF_HUB_CACHE="$workdir/Direct3DS2_WinPortable/HuggingFaceHub"
 mkdir -p "${HF_HUB_CACHE}"
+export TORCH_HOME="$workdir/Direct3DS2_WinPortable/TorchHome"
+mkdir -p "${TORCH_HOME}"
 
 # Relocate python_standalone
 # This move is intentional. It will fast-fail if anything breaks.
