@@ -15,7 +15,7 @@ ls -lahF
 # Download Python Standalone
 cd "$workdir"
 curl -sSL \
-https://github.com/astral-sh/python-build-standalone/releases/download/20250529/cpython-3.10.17+20250529-x86_64-pc-windows-msvc-install_only.tar.gz \
+https://github.com/astral-sh/python-build-standalone/releases/download/20250604/cpython-3.10.18+20250604-x86_64-pc-windows-msvc-install_only.tar.gz \
     -o python.tar.gz
 tar -zxf python.tar.gz
 mv python python_standalone
